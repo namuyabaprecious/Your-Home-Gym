@@ -57,11 +57,13 @@ header{
 }
 .right{
     text-align: center;
-    padding: 80px;
-    padding-top: 100px;
+    padding: 40px;
+    padding-top: 10px;
 }
-.left{
-    width: 80%;
+.left img{
+    width: 100%;
+    height: auto;
+    border-radius:10px;
 }
 h1{
     font-size: 40px;
@@ -282,5 +284,6 @@ ul h2,h3{
 
 
     
+
 
 
