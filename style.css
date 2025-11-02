@@ -48,7 +48,7 @@ header{
     padding:40px;
 }
 .left,.right{
-    width: 50%;
+    width: 100%;
     margin: 20px;
 }
 .img{
@@ -284,6 +284,7 @@ ul h2,h3{
 
 
     
+
 
 
 
