@@ -123,6 +123,11 @@ nav a{
     margin: 0 15px;
     font-weight: bold;
 }
+.table-wrapper{
+    overflow-x:auto;
+    max-width:auto;
+    padding-bottom:10px;
+}
 .section{
     padding: 20px;
     text-align: left;
@@ -284,6 +289,7 @@ ul h2,h3{
 
 
     
+
 
 
 
