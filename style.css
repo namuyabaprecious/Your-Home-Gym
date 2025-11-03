@@ -151,11 +151,12 @@ ul h2,h3{
     padding-left: 10px;
     text-align: left;
 }
-
-.ul li{
-    margin-bottom: 8px;
-    color:  rgb(59, 176, 114);
-}
+input,textarea{
+        padding:10px;
+        width:50%;
+        margin-bottom:10px;
+        border:1px solid grey;
+    }
 
 .img{
     flex: 1;
@@ -291,6 +292,7 @@ ul h2,h3{
 
 
     
+
 
 
 
