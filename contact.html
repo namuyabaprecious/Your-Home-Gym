@@ -35,22 +35,17 @@
 	<a href="messageForm" class="btn btn-primary">Send Message</a>
 
 	<form id="messageForm">
-		<label for="name">Name:</label>
-		<input type="text" id="name" required><br>
-		<label for="message">Message:</label>
-		<textarea  id="message" required></textarea><br>
+		<label for="name">Name:</label><input type="text" id="name" placeholder="full names"required><br>
+		<label for="date">Date:</label><input type="date" name"" required><br>
+		<label for="message">Message:</label><br><textarea  id="message" placeholder="your message" required></textarea><br>
 		<button type="submit" class="btn btn-success">submit</button>
-		
-		
-	</form>
-	
-
-  <div id="formSuccess" class="alert-alart-success mt-3 d-none" role="alert">
+		<div id="formSuccess" class="alert-alart-success mt-3 d-none" role="alert">
 	Your message has been recorded.
 	 </div>
+		
 	</form>
     	<h2>Survey</h2>
-    		<ul><li><h3>How did you hear about us?</h3></li></ul>
+    		<h3>How did you hear about us?</h3>
    <form action="">
     		<label for="Friend">From a Friend</label><input type="checkbox" name="Friend" id="Friend"><br>
     		<label for="web">Web search</label><input type="checkbox" name="Web" id="Web"><br>
@@ -89,4 +84,5 @@
 
 </body>
 </html>
+
 
